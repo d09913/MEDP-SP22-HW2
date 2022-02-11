@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+       font-family: "swissted";
+       src: url("https://cdn.glitch.global/ea6dab1a-af0b-43cf-9521-bf8692a6f9ac/Berthold%20Akzidenz%20Grotesk%20Medium.ttf?v=1644547564688");
+    }
+
+#poster {
+  background-color: #cfc8ba;
+  width: 500px;
+  height: 700px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#the {
+  color: #178f91;
+  float: left;
+  font-weight: bold;
+  margin-top: -10px;
+  font-size: 300px;
+  margin-left: -24px;
+  letter-spacing: -18px;
+}
+#gun {
+  color: #00000099;
+  letter-spacing: -28px;
+  float: left;
+  font-weight: bold;
+  margin-top: -550px;
+  font-size: 300px;
+  margin-left: -35px;
+  mix-blend-mode: multiply;
+}
+#club {
+  color: #b70253;
+  letter-spacing: -25px;
+  float: left;
+  font-weight: bold;
+  font-size: 300px;
+  margin-left: -35px;
+  margin-top: -540px;
+}
+#toptext {
+  margin-top: 30px;
+  font-size: 16px;
+}
+#bottext {
+  margin-top: -350px;
+  font-size: 16px;
+  float: right;
+  margin-right: 238px;
+}
+
+.text {
+  display: inline-block;
+  width: 100%;
+}
+.smalltext {
+  margin-left: 75px;
+  line-height: 0px;
+}
+.bigtext {
+  font-size: 100px;
+  margin-left: 0;
+}
